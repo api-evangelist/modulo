@@ -1,8 +1,24 @@
 aid: modulo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/modulo.png
 name: Modulo
-description: 'Modulo is a company surfaced as a portfolio company of initialized-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Modulo Bio is a San Diego, California biotechnology company reprogramming the neuroimmune
+  system to overcome the world''s toughest neurological diseases. The company develops therapeutics that
+  target microglia, the brain''s resident immune cells, by combining stem cell engineering, neurobiology,
+  multiomics (CRISPR and single-cell techniques), and machine learning to understand and manipulate
+  microglial behavior, identify biomarkers, and discover new drug candidates. Modulo Bio is a therapeutics
+  research company and does not currently publish a public developer platform, API, or technical
+  documentation; this profile captures its identity and domain-security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/modulo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Biotechnology
+- Neuroscience
+- Drug Discovery
+- Therapeutics
+- Neuroimmunology
+- Machine Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/modulo-domain-security.yml
 - type: Website
   url: https://modulo.bio/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
