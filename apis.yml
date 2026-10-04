@@ -48,7 +48,7 @@ tags:
 - Drug Discovery
 - Therapeutics
 - Neuroimmunology
-- Machine-Learning
+- Machine Learning
 tags_raw:
 - Company
 - Healthcare
@@ -58,6 +58,7 @@ tags_raw:
 - Therapeutics
 - Neuroimmunology
 - Machine Learning
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
